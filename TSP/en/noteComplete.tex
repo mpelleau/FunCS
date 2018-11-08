@@ -1,9 +1,16 @@
+%%%%%%%%%%%%%%%%%%%%
+%
+% Complete Route for the TSP Activity
+% 
+% Author: Marie Pelleau
+%
+%%%%%%%%%%%%%%%%%%%%
+
 \documentclass{article}
 
 \usepackage{macros}
 
-\title{TSP - complete route (45 cities)}
-\date{}
+\tsptitle{complete}{45}
 
 \begin{document}
   \Large
@@ -21,7 +28,7 @@
   \centering
   
   \begin{tikzpicture}
-    \node[inner sep = 0pt] () at (0,0) {\includegraphics[scale = 1.5]{../cartes/france.pdf}};
+    \node[inner sep = 0pt] () at (0,0) {\includegraphics[scale = 1.5]{../france.pdf}};
     
     \node[ville, vred] (amiens) at (1.005491386, 6.342726704) {}; 
     \node[ville, vred] (arles) at (3.841548395, -6.186719186) {}; 
