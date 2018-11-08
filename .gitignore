@@ -1,0 +1,10 @@
+
+# OS related
+.DS_Store
+
+# Latex related
+*.log
+*.aux
+*.synctex.gz
+*.bbl
+*.blg

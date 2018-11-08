@@ -1,0 +1,78 @@
+\documentclass{article}
+
+\usepackage{macros}
+
+\title{TSP - complete route (45 cities)}
+\date{}
+
+\begin{document}
+  \Large
+  
+  \maketitle
+  
+  \textbf{Combinatorics: } $\displaystyle{\frac{1}{2} \times (45 - 1)! =}$
+  
+  \medskip
+  $1\,329\,135\,787\,394\,224\,384\,021\,812\,905\,507\,307\,945\,159\,819\,264\,000\,000\,000$
+
+  \bigskip
+    
+  \bigskip
+  \centering
+  
+  \begin{tikzpicture}
+    \node[inner sep = 0pt] () at (0,0) {\includegraphics[scale = 1.5]{../cartes/france.pdf}};
+    
+    \node[ville, vred] (amiens) at (1.005491386, 6.342726704) {}; 
+    \node[ville, vred] (arles) at (3.841548395, -6.186719186) {}; 
+    \node[ville, vred] (carcassonne) at (1.005491386, -6.863986532) {}; 
+    \node[ville, vred] (limoges) at (-0.7935, -1.594) {}; 
+    \node[ville, vred] (macon) at (4.2225, -0.832) {}; 
+    \node[ville, vred] (nancy) at (5.95800885, 3.739480345) {}; 
+    \node[ville, vred] (nice) at (7.54535419, -5.848085513) {}; 
+    \node[ville, vred] (pau) at (-3.1216065, -6.461859045) {}; 
+    \node[ville, vred] (rennes) at (-4.074013704, 3.168036022) {}; 
+    
+    \node[ville, vred] (bourges) at (1.0689852, 0.755271104) {}; 
+    \node[ville, vred] (clermont) at (2.106050823, -2.0596213) {}; 
+    
+    \node[ville, vred] (avignon) at (4.032029836, -5.530616445) {}; 
+    \node[ville, vred] (montpellier) at (2.508178309, -6.250213) {}; 
+    \node[ville, vred] (nimes) at (3.270104072, -5.869250118) {}; 
+    
+    \node[ville, vred] (caen) at (-2.380845341, 5.030521222) {}; 
+    \node[ville, vred] (chambery) at (5.894515036, -2.080785905) {}; 
+    \node[ville, vred] (chartres) at (-0.073903445, 3.5278343) {};  
+    \node[ville, vred] (cherbourg) at (-3.798873845, 5.961763822) {}; 
+    \node[ville, vred] (poitiers) at (-1.894059436, -0.048983868) {}; 
+    
+    \node[ville, vred] (annecy) at (5.95800885, -1.36118935) {};
+    \node[ville, vred] (auxerre) at (2.360026077, 1.89815975) {};
+    \node[ville, vred] (biarritz) at (-4.835939468, -5.911579327) {};
+    \node[ville, vred] (besançon) at (5.661704386, 0.924587941) {};
+    \node[ville, vred] (bordeaux) at (-3.375581754, -3.329497573) {};
+    \node[ville, vred] (brest) at (-7.248704386, 3.845303368) {};
+    \node[ville, vred] (calais) at (0.878503759, 8.268705718) {};
+    \node[ville, vred] (colmar) at (7.1220621, 2.384945654) {};
+    \node[ville, vred] (dijon) at (4.878614018, 1.855830541) {};
+    \node[ville, vred] (grenoble) at (5.365399922, -3.139016132) {};
+    \node[ville, vred] (laRochelle) at (-3.777709241, -0.683922005) {};
+    \node[ville, vred] (lille) at (1.344125059, 7.549109163) {};
+    \node[ville, vred] (lyon) at (4.09552365, -1.974962882) {};
+    \node[ville, vred] (marseille) at (4.709297181, -6.800492718) {};
+    \node[ville, vred] (metz) at (5.809856618, 4.564899922) {};
+    \node[ville, vred] (nantes) at (-4.243330541, 1.326715427) {};
+    \node[ville, vred] (paris) at (0.476376273, 4.564899922) {};
+    \node[ville, vred] (perpignan) at (1.195972827, -8.006875177) {};
+    \node[ville, vred] (reims) at (3.375927095, 4.797710572) {};
+    \node[ville, vred] (rouen) at (-0.518360141, 5.453813313) {};
+    \node[ville, vred] (royan) at (-3.798873845, -1.678658418) {};
+    \node[ville, vred] (saintMalo) at (-4.327988959, 3.929961786) {};
+    \node[ville, vred] (strasbourg) at (7.820494049, 3.654821927) {};
+    \node[ville, vred] (toulon) at (5.407729131, -7.1814556) {};
+    \node[ville, vred] (toulouse) at (-0.814664605, -6.01740235) {};
+    \node[ville, vred] (tours) at (-1.576590368, 1.369044636) {};
+    
+    \draw[very thick, red] (nice) -- (toulon) -- (marseille) -- (arles) -- (avignon) -- (nimes) -- (montpellier)-- (carcassonne) -- (perpignan) -- (toulouse) -- (pau) -- (biarritz) -- (bordeaux) -- (royan) -- (laRochelle) -- (nantes) -- (rennes) -- (saintMalo) -- (brest) -- (cherbourg) -- (caen) -- (rouen) -- (chartres) -- (paris) -- (amiens) -- (calais) -- (lille) -- (reims) -- (metz) -- (nancy) -- (strasbourg) -- (colmar) -- (besançon) -- (dijon) -- (auxerre) -- (bourges) -- (tours) -- (poitiers) -- (limoges) -- (clermont) -- (lyon) -- (macon) -- (annecy) -- (chambery) -- (grenoble) -- (nice);
+  \end{tikzpicture}
+\end{document}
