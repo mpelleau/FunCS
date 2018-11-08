@@ -1,6 +1,6 @@
 # Travelling Salesman Problem
 
-The [https://en.wikipedia.org/wiki/Travelling_salesman_problem](Travelling Salesman Problem) is a wellknown NP-hard problem in combinatorial optimization.
+The [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) is a wellknown NP-hard problem in combinatorial optimization.
 
 ## Material
   - Acrylic sheet
@@ -9,7 +9,7 @@ The [https://en.wikipedia.org/wiki/Travelling_salesman_problem](Travelling Sales
   - String
 
 ## DIY
-  1. Cut the [france.svg](map) in an acrylic sheet
+  1. Cut the [map](france.svg) in an acrylic sheet
   2. Cut tokens
   3. Tie the string to a token
   4. Fix the tokens to the map using the Blu-Tack
