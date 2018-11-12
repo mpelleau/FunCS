@@ -18,5 +18,5 @@ The [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_sales
 ## Activity description
   1. Tell the participants that they are big stars with their own jet, and that they want to visit all of their firends living in the cities in green, but they do not want to spend to much time in their jet eventhough it is a very confortable jet
   2. Let them play, and try to find the optimal route
-  3. If they did not find the optimal guide them towards the optimal route (cf. note)
-  4. When the optimal route is found, repeat adding the blue cities, then the red ones, and finally the black ones
+  3. If they did not find the optimal guide them towards the optimal route (cf. [note](en/noteGreen.pdf))
+  4. When the optimal route is found, repeat adding the [blue](en/noteBlue.pdf) cities, then the [red](en/noteRed.pdf) ones, and finally the [black](en/noteBlack.pdf) ones
