@@ -12,8 +12,16 @@ The [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_sales
   1. Cut the [map](france.svg) in an acrylic sheet
   2. Cut tokens
   3. Tie the string to a token
+  
+  ![Start token](pictures/DSC_0030.JPG)
+  
   4. Fix the tokens to the map using the Blu-Tack
+  
+  ![Tokens ready](pictures/DSC_0031.JPG)
+  
   5. Using the notes, mark the string where the solution are
+  
+  ![Activity ready](pictures/DSC_0032.JPG)
   
 ## Activity description
   1. Tell the participants that they are big stars with their own jet, and that they want to visit all of their firends living in the cities in green, but they do not want to spend to much time in their jet eventhough it is a very confortable jet
