@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%
+%
+% Macros for the N-Queen activity
+% 
+% Author: Marie Pelleau
+%
+%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{xcolor}
+\usepackage{pgf, tikz}
+\usepackage{skak}
+
+\definecolor{bleu}{rgb}{0, 0.6, 0.8}
+\definecolor{rose}{rgb}{0.8, 0, 0.4}
+
+
+%%%%%%%%%%%%%%%%
+% 2 possible representations 
+% The first one, is simple and used in the notes
+% The second one (with suffix Bis) can be used for small checkerboards
+%%%%%%%%%%%%%%%%
+
+
+%%%%% 2 possible queens %%%%%
+\def\queen#1{\fill[bleu!80!black] (#1) rectangle ++ (1, 1);}
+\def\queenBis#1{\draw (#1) ++ (0.5, 0.5) node {\Large \symqueen};}
+%\def\queenBis#1{\fill[fill = white] (#1) ++ (0.5, 0.5) circle (0.35cm) node {\Large \symqueen};}
+
+%%%%% 2 possible checkerboards %%%%%
+\def\grid#1{ 
+  \draw[step=1, black, very thick] (0, 0) grid (#1, #1);
+}
+
+\def\gridBis#1{
+  \pgfmathtruncatemacro\val{{#1/2-1}}
+  \pgfmathtruncatemacro{\tmp}{mod(#1, 2)}
+  
+  
+  \foreach \i in {0, 1, ..., \val} {
+    \foreach \j in {0, 1, ..., \val} {
+      \fill[bleu!80!black] ({2*\i}, {2*\j}) rectangle ({2*\i + 1}, {2*\j + 1});
+      \fill[bleu!20] ({2*\i + 1}, {2*\j}) rectangle ({2*(\i + 1)}, {2*\j + 1});
+      \fill[bleu!80!black] ({2*\i + 1}, {2*\j + 1}) rectangle ({2*(\i + 1)}, {2*(\j + 1)});
+      \fill[bleu!20] ({2*\i}, {2*\j + 1}) rectangle ({2*\i + 1}, {2*(\j + 1)});
+    }
+  }
+  
+  \ifnum \tmp>0
+    \foreach \i in {0, 1, ..., \val} {
+      \fill[bleu!80!black] ({2*\i}, {2*\val + 2}) rectangle ({2*\i + 1}, {2*\val + 3});
+      \fill[bleu!20] ({2*\i + 1}, {2*\val + 2}) rectangle ({2*(\i + 1)}, {2*\val + 3});
+      \fill[bleu!80!black] ({2*\val + 2}, {2*\i}) rectangle ({2*\val + 3}, {2*\i + 1});
+      \fill[bleu!20] ({2*\val + 2}, {2*\i + 1}) rectangle ({2*\val + 3}, {2*(\i + 1)});
+    }
+    \fill[bleu!80!black] ({2*\val + 2}, {2*\val + 2}) rectangle ({2*\val + 3}, {2*\val + 3});
+  \fi
+ 
+  \draw[step=1, black, very thick] (0, 0) grid ({#1}, {#1});
+}

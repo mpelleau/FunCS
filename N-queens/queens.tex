@@ -1,0 +1,16 @@
+\documentclass{standalone}
+
+\usepackage{macros}
+
+\begin{document}
+  \begin{tikzpicture}
+    \fill[yellow!80!orange] (0, 0) rectangle (8, 10);
+    \draw[step=1, yellow!70!orange] (0, 0) grid (8, 10);
+    
+    \foreach \i in {0, 1, ..., 7} {
+      \foreach \j in {0, 1, ..., 9} {
+        \queenBis{\i, \j}
+      }
+    }
+  \end{tikzpicture}
+\end{document}
