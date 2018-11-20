@@ -1,6 +1,6 @@
 # N-queens
 
-The [N-queens Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) is a wellknown puzzle in combinatorics.
+The [N-queens Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) is a wellknown puzzle in combinatorics. The goal is to put $n$ non-attacking queens on a $n\times n$ checkerboard. A queen can attack another is they are on the same row, same column or the same diagonals.
 
 ## Material
   - Printer and paper
