@@ -1,6 +1,6 @@
 # N-queens
 
-The [N-queens Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) is a wellknown puzzle in combinatorics. The goal is to put <a href="https://www.codecogs.com/eqnedit.php?latex=$n$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$n$" title="$n$"/></a> non-attacking queens on a $n\times n$ checkerboard. A queen can attack another is they are on the same row, same column or the same diagonals.
+The [N-queens Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) is a wellknown puzzle in combinatorics. The goal is to put <a href="https://www.codecogs.com/eqnedit.php?latex=$$n$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$n$$" title="n"/></a> non-attacking queens on a <a href="https://www.codecogs.com/eqnedit.php?latex=$$n\times&space;n$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$n\times&space;n$$" title="nxn"/></a> checkerboard. A queen can attack another is they are on the same row, same column or the same diagonals.
 
 ## Material
   - Printer and paper
