@@ -1,0 +1,21 @@
+
+sudo: required
+befor_install:
+- "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng"
+script:
+- pdflatex -output-directory N-queens N-queens/checkerboard4x4.tex
+- pdflatex -output-directory N-queens N-queens/checkerboard5x5.tex
+- pdflatex -output-directory N-queens N-queens/checkerboard6x6.tex
+- pdflatex -output-directory N-queens N-queens/checkerboard8x8.tex
+deploy:
+  provider: releases
+  api_key:
+    secure: ar4yE3xM6RjjnTy8Wsky4aBv7KFIMR1hXh1ljaS2Nb844RkyQ6WncZ4zNIfjsTQz+1KBCWuCRCaRxZy29/+v/0xMnL2DnqXVFufm/E0NqyKgfomvBgOJNMom0pjiJ6XBbhXyMTZZble9rT/8VeptfailxQ9RHxvn2NHZZWxBwvHw7O4KnUDtgL2HpjOm2xaccfEtggIlgzRT8FnyNFJ53qpUC5TtjGWyFJafcblGfTa9+xBm54Cb1PrhFdvT4NFVk7XiMVwQx3XNPmYpWyqcD+FJhw7RCW9vj3lxnyZpWdMDOJy9mQQihfWJviVHLL/XIBguELJw+vuwkDMMkj0eprh8ksaB9LOD19cWM1g81QjAuIWiAaKNgPSjofL5LIco1pQMJLqcjQviCaxxsWDULTScN+yIpDO2d9lvH3Hhm4MtaeBGAZX1ZJn24rN20taWReiLp1wCADWR/WKpXJvHtMuxXRNKZAR6/xGSpZF5r1Yuf8DZsdJWZgqiGilU+TmzGvf/R1JUlAZ5IApD12H2TQNauoHQe/PaYXNJ+wHWCMbOWgU+ZsvN/wFhSytS9SVtXEW/+mSAzj0VnCO2XYMn9bckuIpR800sLQ7hebijxaYQ/tT0m438GzLp2QYKZshKaGrogjjk2eKt4dDaKp2brd1+sc3zUXfLLTVBgGotc4s=
+  file:
+  - N-queens/checkerboard4x4.pdf
+  - N-queens/checkerboard5x5.pdf
+  - N-queens/checkerboard6x6.pdf
+  - N-queens/checkerboard8x8.pdf
+  on:
+    repo: mpelleau/FunCS
+    tags: true
