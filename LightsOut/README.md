@@ -14,7 +14,7 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   - ø3x12 countersunk head bolts and nuts
 
 ## DIY
-  1. Print the [box](3D\ Models/)
+  1. Print the [box](3DModels/)
   
   ![Print](pictures/Print.jpg)
   
