@@ -1,7 +1,7 @@
 sudo: required
 before_install:
 - "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng"
-- "sudo apt-get update && sudo apt-get install latex-xcolor pgf"
+- "sudo apt-get update && sudo apt-get install latex-xcolor pgf texlive-games"
 script:
 - pdflatex -output-directory N-queens N-queens/checkerboard4x4.tex
 - pdflatex -output-directory N-queens N-queens/checkerboard5x5.tex
