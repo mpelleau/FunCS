@@ -1,6 +1,5 @@
-
 sudo: required
-befor_install:
+before_install:
 - "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng"
 script:
 - pdflatex -output-directory N-queens N-queens/checkerboard4x4.tex
