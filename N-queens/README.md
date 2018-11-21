@@ -1,6 +1,6 @@
 # N-queens
 
-The [N-queens Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) is a wellknown puzzle in combinatorics.
+The [N-queens Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) is a wellknown puzzle in combinatorics. The goal is to put <a href="https://www.codecogs.com/eqnedit.php?latex=$$n$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$n$$" title="n"/></a> non-attacking queens on a <a href="https://www.codecogs.com/eqnedit.php?latex=$$n\times&space;n$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$n\times&space;n$$" title="nxn"/></a> checkerboard. A queen can attack another is they are on the same row, same column or the same diagonals.
 
 ## Material
   - Printer and paper
@@ -18,4 +18,4 @@ The [N-queens Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) is a w
   2. Let them play, and try to find one of the solutions
   3. If they did not find any solution guide them towards one (cf. [note](en/note4x4.pdf))
   4. When one solution is found, tell them that they found at most 8 solutions (considering symetries and rotations)
-  5. If their game, give them a bigger checkerboard and the corresponding number of queens
+  5. If they're game, give them a bigger checkerboard and the corresponding number of queens

@@ -1,6 +1,6 @@
 # Travelling Salesman Problem
 
-The [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) is a wellknown NP-hard problem in combinatorial optimization.
+The [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) is a wellknown NP-hard problem in combinatorial optimization. The goal is to find the shortest possible route that visits each city and returns to the origin city.
 
 ## Material
   - Acrylic sheet
