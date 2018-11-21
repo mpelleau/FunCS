@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%
+%
+% Combinatoire pour le jeux du Lights Out 2x2
+% 
+% Authors: Valentin Montmirail and Marie Pelleau
+%
+%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+
+\usepackage{fixmath}
+\usepackage{pgf, tikz}
+
+\usepackage[top = 0.75cm, bottom = 0cm, left = 2.5cm]{geometry}
+
+\definecolor{bleu}{rgb}{0, 0.6, 0.8}
+\definecolor{rose}{rgb}{0.8, 0, 0.4}
+
+\title{Lights Out}
+
+\author{}
+\date{} 
+
+
+\def\x{\mathbold{\textcolor{orange!80!red}{x}}}
+\def\y{\mathbold{\textcolor{bleu}{y}}}
+\def\z{\mathbold{\textcolor{green!70!blue}{z}}}
+\def\t{\mathbold{\textcolor{rose}{t}}}
+
+\begin{document}
+  \Large
+  \maketitle
+  
+  Lights Out est un jeu \'electronique vendu par Tiger Electronics en 1995.
+  Le jeu consiste normalement en grille de $5\times5$ lumi\`eres.
+  Le jeu d\'emarre, un nombre al\'eatoire de lumi\`eres sont allum\'ees. En appuyant sur une lumi\`ere on change son \'etat ainsi que l'\'etat de ses 4 voisins.
+  Le but du jeu est de trouver la combinaison de boutons qui \'eteint le jeu enti\`erement en appuyant sur le moins de boutons possible.
+  
+  \bigskip
+  \textbf{Fonctionnement du jeu}
+  
+  \begin{center}
+    \begin{tikzpicture}[scale = 1.5]
+      \fill[even odd rule, inner color = white, outer color = yellow!90!red] (0, 1) rectangle (1, 2);
+      \fill[even odd rule, inner color = white, outer color = yellow!90!red] (1, 1) rectangle (2, 2);
+      \fill[lightgray] (0, 0) rectangle (2, 1);
+      \draw[step=1, thick] (0, 0) grid (2, 2);
+      
+      \draw[->, thick] (2.8, 1) -- (3.3, 1) node [midway, below] {\textcolor{red}{\textbf{?}}};
+      
+      \begin{scope}[xshift = 4.1cm]
+        \fill[lightgray] (0, 0) rectangle (2, 2);
+        \draw[step=1, thick] (0, 0) grid (2, 2);
+      \end{scope}
+      
+      \draw (1, -1.25) node {$\left(\begin{array}{c}1\\1\\0\\0\end{array}\right)$};
+      \draw[->, thick] (2.8, -1.25) -- (3.3, -1.25);
+      \draw (5.1, -1.25) node {$\left(\begin{array}{c}0\\0\\0\\0\end{array}\right)$};
+      
+      \draw (2.85, -3.25) node {$\left\{\begin{array}{c @{~+~} c  @{~+~} c @{~+~} c @{~+~} c  @{~=~0}}
+        1 & \x & \y & \z &  0\\
+        1 & \x & \y &  0 & \t\\
+        0 & \x &  0 & \z & \t\\
+        0 &  0 & \y & \z & \t\end{array}\right.$};
+    \end{tikzpicture}
+  \end{center}
+  
+  \bigskip
+  \textbf{Combinatoire}
+  
+  \begin{itemize}
+    \item Meilleur des cas : 0 bouton appuy\'e (le jeu \'etait d\'ej\`a  tout \'eteint).
+    \item Pire des cas : pour un jeu $n \times n$, il faut appuyer sur $n^2$ boutons.
+    \item Cas en moyenne : $\displaystyle{\frac{n^2}{2} \times \frac{(2^{n^2)}}{(2^{n^2} - 1)}}$ (environ la moiti\'e des boutons).
+  \end{itemize}
+
+\end{document}
