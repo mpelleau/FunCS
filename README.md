@@ -3,6 +3,6 @@
 
 Toolbox for fun scientific dissemination in Computer Science.
 
-This repository is a collection of free teaching material that teaches Computer Science through puzzles that were created in a FabLab. It follows the idea of [CS unplugged](https://csunplugged.org/en/).
+This repository is a collection of free teaching material that teaches Computer Science through puzzles that were created in the [FabLab@UCA](http://unice.fr/faculte-des-sciences/formation/fablab/). It follows the idea of [CS unplugged](https://csunplugged.org/en/).
 
 
