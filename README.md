@@ -9,6 +9,9 @@ This repository is a collection of free teaching material that teaches Computer 
 ## Licence
 [![Licence](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+## Support or Contact
+Having trouble with running this project? Want to participate?
 
+Please, feel free to post issues or send pull requests.
 
 
