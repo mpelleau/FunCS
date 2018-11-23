@@ -4,8 +4,6 @@ On this website, you will find a collection of free teaching material that teach
 
 ## List of the activities
   - [N-queens](./n-queens.md)
-  - [Lights out](./lights-out.md)
-  - [TSP](./tsp.md)
 
 ## Authors and Contributors
   - [Valentin Montmirail](https://github.com/Mystelven)
