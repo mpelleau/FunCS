@@ -1,1 +1,0 @@
-../N-queens/README.md
