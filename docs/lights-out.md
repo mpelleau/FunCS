@@ -16,7 +16,7 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
 ## DIY
   1. Print the [box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/)
   
-  ![Print](pictures/Print.jpg)
+  ![Print](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/Print.jpg)
   
   2. Solder the leds on the Trellis
   
@@ -26,15 +26,15 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   4. Fix the Arduino on the bottom of the box
   5. Wire the Trellis to the Arduino
   
-  ![Wire on Uno](pictures/UnoWiring.jpg)![Wire on Leonardo](pictures/LeonardoWiring.jpg)
+  ![Wire on Uno](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/UnoWiring.jpg)![Wire on Leonardo](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/LeonardoWiring.jpg)
   
   6. Assemble the box
   
-  ![Assemble](pictures/Assembler.jpg)
+  ![Assemble](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/Assembler.jpg)
   
   7. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software) download the [code](code/) on the Arduino
   
-  ![Small board](pictures/small.jpg)![Big board](pictures/big.jpg)
+  ![Small board](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/small.jpg)![Big board](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/big.jpg)
   
   
 ## Activity description
@@ -51,6 +51,6 @@ The material of this activity is based on the following references:
   - Activity inspired by the article [Lights Out: A little mathematic game](https://github.com/Mystelven/LightsOuts-Math)
 
 ## Sources
-  - note in [english](note.pdf) in [french](fiche.pdf)
+  - note in [english](https://github.com/mpelleau/FunCS/tree/master/LightsOut/note.pdf) in [french](https://github.com/mpelleau/FunCS/tree/master/LightsOut/fiche.pdf)
   - 3D models for the [4x4 box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_4x4/) and [8x8 box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_8x8/)
-  - code for the [4x4 game](code/LightsOut4x4.ino) and [8x8 game](code/LightsOut8x8.ino)
+  - code for the [4x4 game](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut4x4.ino) and [8x8 game](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut8x8.ino)
