@@ -16,7 +16,7 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
 ## DIY
   1. Print the [box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/)
   
-  ![Print](https://github.com/mpelleau/FunCS/blob/master/LightsOut/pictures/Print.jpg)
+  ![Print](https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/Print.jpg)
   
   2. Solder the leds on the Trellis
   
@@ -26,15 +26,15 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   4. Fix the Arduino on the bottom of the box
   5. Wire the Trellis to the Arduino
   
-  ![Wire on Uno](https://github.com/mpelleau/FunCS/blob/master/LightsOut/pictures/UnoWiring.jpg)![Wire on Leonardo](https://github.com/mpelleau/FunCS/blob/master/LightsOut/pictures/LeonardoWiring.jpg)
+  ![Wire on Uno](https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/UnoWiring.jpg)![Wire on Leonardo](https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/LeonardoWiring.jpg)
   
   6. Assemble the box
   
-  ![Assemble](https://github.com/mpelleau/FunCS/blob/master/LightsOut/pictures/Assembler.jpg)
+  ![Assemble](https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/Assembler.jpg)
   
   7. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software) download the [code](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/) on the Arduino
   
-  ![Small board](https://github.com/mpelleau/FunCS/blob/master/LightsOut/pictures/small.jpg)![Big board](https://github.com/mpelleau/FunCS/blob/master/LightsOut/pictures/big.jpg)
+  ![Small board](https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/small.jpg)![Big board](https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/big.jpg)
   
   
 ## Activity description
