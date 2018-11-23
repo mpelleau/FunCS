@@ -14,7 +14,7 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   - ø3x12 countersunk head bolts and nuts
 
 ## DIY
-  1. Print the [box](https://github.com/mpelleau/FunCS/LightsOut/3DModels/)
+  1. Print the [box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/)
   
   ![Print](pictures/Print.jpg)
   
@@ -52,5 +52,5 @@ The material of this activity is based on the following references:
 
 ## Sources
   - note in [english](note.pdf) in [french](fiche.pdf)
-  - 3D models for the [4x4 box](https://github.com/mpelleau/FunCS/LightsOut/3DModels/Trellis_box_4x4/) and [8x8 box](https://github.com/mpelleau/FunCS/LightsOut/3DModels/Trellis_box_8x8/)
+  - 3D models for the [4x4 box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_4x4/) and [8x8 box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_8x8/)
   - code for the [4x4 game](code/LightsOut4x4.ino) and [8x8 game](code/LightsOut8x8.ino)
