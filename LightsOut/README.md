@@ -32,7 +32,7 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   
   ![Assemble](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/Assembler.jpg)
   
-  7. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software) download the [code](code/) on the Arduino
+  7. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software) download the [code](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/) on the Arduino
   
   ![Small board](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/small.jpg)![Big board](https://github.com/mpelleau/FunCS/tree/master/LightsOut/pictures/big.jpg)
   
