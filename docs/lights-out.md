@@ -14,9 +14,9 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   - ø3x12 countersunk head bolts and nuts
 
 ## DIY
-  1. Print the [box](3DModels/)
+  1. Print the [box](../LightsOut/3DModels/)
   
-  ![Print](pictures/Print.jpg)
+  ![Print](../LightsOut/pictures/Print.jpg)
   
   2. Solder the leds on the Trellis
   
@@ -26,15 +26,15 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   4. Fix the Arduino on the bottom of the box
   5. Wire the Trellis to the Arduino
   
-  ![Wire on Uno](pictures/UnoWiring.jpg)![Wire on Leonardo](pictures/LeonardoWiring.jpg)
+  ![Wire on Uno](../LightsOut/pictures/UnoWiring.jpg)![Wire on Leonardo](../LightsOut/pictures/LeonardoWiring.jpg)
   
   6. Assemble the box
   
-  ![Assemble](pictures/Assembler.jpg)
+  ![Assemble](../LightsOut/pictures/Assembler.jpg)
   
   7. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software) download the [code](code/) on the Arduino
   
-  ![Small board](pictures/small.jpg)![Big board](pictures/big.jpg)
+  ![Small board](../LightsOut/pictures/small.jpg)![Big board](../LightsOut/pictures/big.jpg)
   
   
 ## Activity description
