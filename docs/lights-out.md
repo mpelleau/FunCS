@@ -1,1 +1,0 @@
-../LightsOut/README.md
