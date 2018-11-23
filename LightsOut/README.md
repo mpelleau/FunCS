@@ -44,7 +44,13 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   4. Once solved, press on a fixed number k of lights, tell the participants they can solve it by pressing on k lights
   5. If they still want to play tell them now that they have to turn on all the lights
 
-## Sources
+## References
+The material of this activity is based on the following references:
   - 3D Models based on the [Trellis Box](https://www.thingiverse.com/thing:211447)
   - Code based on the [Adafruit Trellis Library](https://github.com/adafruit/Adafruit_Trellis_Library)
   - Activity inspired by the article [Lights Out: A little mathematic game](https://github.com/Mystelven/LightsOuts-Math)
+
+## Sources
+  - note in [english](../LightsOut/note.pdf) in [french](../LightsOut/fiche.pdf)
+  - 3D models for the [4x4 box](../LightsOut/3DModels/Trellis_box_4x4/) and [8x8 box](../LightsOut/3DModels/Trellis_box_8x8/)
+  - code for the [4x4 game](../LightsOut/code/LightsOut4x4.ino) and [8x8 game](../LightsOut/code/LightsOut8x8.ino)
