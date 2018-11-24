@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+  <meta charset="UTF-8">
+  <title>FunCS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#991571">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/cayman.css">
+</head>
+
+  <body>
+    <section class="page-header">
+  <h1 class="project-name">FunCS</h1>
+  <h2 class="project-tagline">A toolbox for fun scientific dissemination in Computer Science</h2>
+  <a href="https://github.com/mpelleau/FunCS" class="btn">View on GitHub</a>
+  <a href="https://github.com/mpelleau/FunCS/archive/master.zip" class="btn">Download .zip</a>
+  <!-- a href="#" class="btn">Download .tar.gz</a -->
+</section>
+
+    <section class="main-content">
+      
+      <h1 id="lights-out">Lights Out</h1>
+
+<p><a href="https://en.wikipedia.org/wiki/Lights_Out_(game)">Lights Out</a> is an electronic game released by Tiger Electronics in 1995.
+The game consists of a 5 x 5 grid of lights. The game starts, a random number of lights are switched on. Pressing any of the lights will toggle it and its 4 adjacent lights. The goal of the game is to find the smallest combination of lights in order to switch all the lights off.</p>
+
+<h2 id="material">Material</h2>
+<ul>
+  <li>3D Printer and 3D filament</li>
+  <li><a href="https://www.adafruit.com/product/1616">Adafruit Trellis</a></li>
+  <li><a href="https://www.adafruit.com/product/1611">Adafruit Silicon Keypad</a></li>
+  <li>Leds</li>
+  <li>Wires</li>
+  <li>Arduino</li>
+  <li>Soldering iron and solder</li>
+  <li>ø3x12 countersunk head bolts and nuts</li>
+</ul>
+
+<h2 id="diy">DIY</h2>
+<ol>
+  <li>Print the <a href="https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/">box</a></li>
+</ol>
+
+<p><img src="https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/Print.jpg" alt="Print" /></p>
+
+<ol>
+  <li>
+    <p>Solder the leds on the Trellis</p>
+  </li>
+  <li>
+    <p>For the big board, solder the trellis together and their identification</p>
+  </li>
+  <li>Solder the wires on the Trellis</li>
+  <li>Fix the Arduino on the bottom of the box</li>
+  <li>Wire the Trellis to the Arduino</li>
+</ol>
+
+<p><img src="https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/UnoWiring.jpg" alt="Wire on Uno" /><img src="https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/LeonardoWiring.jpg" alt="Wire on Leonardo" /></p>
+
+<ol>
+  <li>Assemble the box</li>
+</ol>
+
+<p><img src="https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/Assembler.jpg" alt="Assemble" /></p>
+
+<ol>
+  <li>Using the <a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a> download the <a href="https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/">code</a> on the Arduino</li>
+</ol>
+
+<p><img src="https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/small.jpg" alt="Small board" /><img src="https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/big.jpg" alt="Big board" /></p>
+
+<h2 id="activity-description">Activity description</h2>
+<ol>
+  <li>Tell the participant the rules of the game</li>
+  <li>Let them play around and try to switch off the lights</li>
+  <li>If they are stuck and need some help show them the <a href="https://en.wikipedia.org/wiki/Lights_Out_(game)#Light_chasing">light chasing</a> strategy</li>
+  <li>Once solved, press on a fixed number k of lights, tell the participants they can solve it by pressing on k lights</li>
+  <li>If they still want to play tell them now that they have to turn on all the lights</li>
+</ol>
+
+<h2 id="references">References</h2>
+<p>The material of this activity is based on the following references:</p>
+<ul>
+  <li>3D Models based on the <a href="https://www.thingiverse.com/thing:211447">Trellis Box</a></li>
+  <li>Code based on the <a href="https://github.com/adafruit/Adafruit_Trellis_Library">Adafruit Trellis Library</a></li>
+  <li>Activity inspired by the article <a href="https://github.com/Mystelven/LightsOuts-Math">Lights Out: A little mathematic game</a></li>
+</ul>
+
+<h2 id="sources">Sources</h2>
+<ul>
+  <li>note in <a href="https://github.com/mpelleau/FunCS/tree/master/LightsOut/note.pdf">english</a> in <a href="https://github.com/mpelleau/FunCS/tree/master/LightsOut/fiche.pdf">french</a></li>
+  <li>3D models for the <a href="https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_4x4/">4x4 box</a> and <a href="https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_8x8/">8x8 box</a></li>
+  <li>code for the <a href="https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut4x4.ino">4x4 game</a> and <a href="https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut8x8.ino">8x8 game</a></li>
+</ul>
+
+
+      <footer class="site-footer">
+  <span class="site-footer-owner"><a href="https://github.com/mpelleau/FunCS">FunCS</a> is maintained by <a href="http://i3s.unice.fr/~mpelleau/">Marie Pelleau</a>.</span>
+  <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+</footer>
+
+
+    </section>
+
+  </body>
+</html>
