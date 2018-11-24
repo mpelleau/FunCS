@@ -35,8 +35,7 @@ The game consists of a 5 x 5 grid of lights. The game starts, a random number of
   7. Using the [Arduino IDE](https://www.arduino.cc/en/Main/Software) download the [code](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/) on the Arduino
   
   ![Small board](https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/small.jpg)![Big board](https://raw.githubusercontent.com/mpelleau/FunCS/master/LightsOut/pictures/big.jpg)
-  
-  
+
 ## Activity description
   1. Tell the participant the rules of the game
   2. Let them play around and try to switch off the lights
@@ -54,3 +53,7 @@ The material of this activity is based on the following references:
   - note in [english](https://github.com/mpelleau/FunCS/tree/master/LightsOut/note.pdf) and in [french](https://github.com/mpelleau/FunCS/tree/master/LightsOut/fiche.pdf)
   - 3D models for the [4x4 box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_4x4/) and [8x8 box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_8x8/)
   - code for the [4x4 game](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut4x4.ino) and [8x8 game](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut8x8.ino)
+
+## Other Activities
+  - [N-queens](./n-queens.md)
+  - [TSP](./tsp.md)
