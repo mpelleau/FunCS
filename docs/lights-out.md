@@ -51,6 +51,6 @@ The material of this activity is based on the following references:
   - Activity inspired by the article [Lights Out: A little mathematic game](https://github.com/Mystelven/LightsOuts-Math)
 
 ## Sources
-  - note in [english](https://github.com/mpelleau/FunCS/tree/master/LightsOut/note.pdf) in [french](https://github.com/mpelleau/FunCS/tree/master/LightsOut/fiche.pdf)
+  - note in [english](https://github.com/mpelleau/FunCS/tree/master/LightsOut/note.pdf) and in [french](https://github.com/mpelleau/FunCS/tree/master/LightsOut/fiche.pdf)
   - 3D models for the [4x4 box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_4x4/) and [8x8 box](https://github.com/mpelleau/FunCS/tree/master/LightsOut/3DModels/Trellis_box_8x8/)
   - code for the [4x4 game](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut4x4.ino) and [8x8 game](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut8x8.ino)
