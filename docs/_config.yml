@@ -1,1 +1,18 @@
-theme: jekyll-theme-cayman
+# Setup
+title:        FunCS
+tagline:      A toolbox for fun scientific dissemination in Computer Science
+baseurl:      ""
+paginate:     1
+locale:       "en"
+
+# About/contact
+author:
+  name:       Marie Pelleau
+  url:        http://i3s.unice.fr/~mpelleau/
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
