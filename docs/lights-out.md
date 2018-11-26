@@ -55,5 +55,5 @@ The material of this activity is based on the following references:
   - code for the [4x4 game](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut4x4.ino) and [8x8 game](https://github.com/mpelleau/FunCS/tree/master/LightsOut/code/LightsOut8x8.ino)
 
 ## Other Activities
-  - [N-queens](./n-queens.md)
-  - [TSP](./tsp.md)
+  - [N-queens](https://github.com/mpelleau/FunCS/tree/master/docs/n-queens.md)
+  - [TSP](https://github.com/mpelleau/FunCS/tree/master/docs/tsp.md)
