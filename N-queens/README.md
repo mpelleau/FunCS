@@ -26,5 +26,5 @@ The [N-queens Problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle) is a w
   - notes in english ([4x4](https://github.com/mpelleau/FunCS/tree/master/N-queens/en/note4x4.pdf), [5x5](https://github.com/mpelleau/FunCS/tree/master/N-queens/en/note5x5.pdf), [6x6](https://github.com/mpelleau/FunCS/tree/master/N-queens/en/note6x6.pdf), [8x8](https://github.com/mpelleau/FunCS/tree/master/N-queens/en/note8x8.pdf)) and in french ([4x4](https://github.com/mpelleau/FunCS/tree/master/N-queens/fr/fiche4x4.pdf), [5x5](https://github.com/mpelleau/FunCS/tree/master/N-queens/fr/fiche5x5.pdf), [6x6](https://github.com/mpelleau/FunCS/tree/master/N-queens/fr/fiche6x6.pdf), [8x8](https://github.com/mpelleau/FunCS/tree/master/N-queens/fr/fiche8x8.pdf))
 
 ## Other Activities
-  - [Lights out](./lights-out.md)
-  - [TSP](./tsp.md)
+  - [Lights out](https://github.com/mpelleau/FunCS/tree/master/LightsOut)
+  - [TSP](https://github.com/mpelleau/FunCS/tree/master/TSP)
