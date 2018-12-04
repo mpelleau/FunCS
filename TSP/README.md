@@ -34,5 +34,5 @@ The [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_sales
   - notes in english ([green](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteGreen.pdf), [blue](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteBlue.pdf), [red](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteRed.pdf), [black](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteBlack.pdf) and [complete](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteComplete.pdf) route) and in french ([green](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheVert.pdf), [blue](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheBleu.pdf), [red](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheRouge.pdf), [black](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheNoir.pdf) and [complete](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheComplet.pdf) route)
 
 ## Other Activities
-  - [Lights out](./lights-out.md)
-  - [N-queens](./n-queens.md)
+  - [Lights out](https://mpelleau.github.io/FunCS/lights-out.html)
+  - [N-queens](https://mpelleau.github.io/FunCS/n-queens.html)
