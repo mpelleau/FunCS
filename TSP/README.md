@@ -32,6 +32,7 @@ The [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_sales
 ## Sources
   - a vecctoriel image for the [map of France](https://github.com/mpelleau/FunCS/tree/master/TSP/france.svg)
   - notes in english ([green](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteGreen.pdf), [blue](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteBlue.pdf), [red](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteRed.pdf), [black](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteBlack.pdf) and [complete](https://github.com/mpelleau/FunCS/tree/master/TSP/en/noteComplete.pdf) route) and in french ([green](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheVert.pdf), [blue](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheBleu.pdf), [red](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheRouge.pdf), [black](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheNoir.pdf) and [complete](https://github.com/mpelleau/FunCS/tree/master/TSP/fr/ficheComplet.pdf) route)
+  - you can add your cities to the map and generate the corresponding LaTeX file for the notes using `java -jar "svg2tikz.jar" france.svg` (jar available [here](https://github.com/mpelleau/FunCS/tree/master/TSP/svg2tikz/svg2tikz.jar))
 
 ## Other Activities
   - [Lights out](https://github.com/mpelleau/FunCS/tree/master/LightsOut)
