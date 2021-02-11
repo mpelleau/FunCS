@@ -8,7 +8,6 @@ On this website, you will find a collection of free teaching material that teach
   - [TSP](./tsp.md)
 
 ## Authors and Contributors
-  - [Valentin Montmirail](https://github.com/Mystelven)
   - [Marie Pelleau](https://github.com/mpelleau)
 
 ## Licence
